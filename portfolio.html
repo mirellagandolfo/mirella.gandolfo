@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio_2</title>
+    <link rel="stylesheet"  "https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img class="logo" src="IMAGES/mirella_logo.png"></a>
+      <nav>
+        <ul>
+          <li class="main_nav"><a href="about.html">About &nbsp;Me</a></li>
+          <li class="main_nav"><a class="active_link"href="portfolio.html">Portfolio</a></li>
+          <li class="main_nav"><a  href="mailto:mirella.gandolfo@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section>
+
+        <h3 id="corporate" class="image_gallery">Corporate Design</h3>
+
+        <div class="row">
+
+        <div class="column">
+          <img src="IMAGES/MODAL/CORPORATE/corp_MST_quarterly_600px.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(1,1)" class="hover-shadow cursor">
+        </div>
+
+        <div class="column">
+          <img src="IMAGES/MODAL/CORPORATE/corp_anz_600px_2.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(2,1)" class="hover-shadow cursor">
+        </div>
+
+        <div class="column">
+          <img src="IMAGES/MODAL/CORPORATE/corp_VMA_600px_3.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(3,1)" class="hover-shadow cursor">
+        </div>
+
+        <div class="column">
+          <img src="IMAGES/MODAL/CORPORATE/corp_NGS_600px_4.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(4,1)" class="hover-shadow cursor">
+        </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="column">
+            <img src="IMAGES/MODAL/CORPORATE/corp_rbf_600px_5.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(5,1)" class="hover-shadow cursor">
+          </div>
+
+          <div class="column">
+            <img src="IMAGES/MODAL/CORPORATE/corp_forms_600px_6.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(6,1)" class="hover-shadow cursor">
+          </div>
+
+          <div class="column">
+            <img src="IMAGES/MODAL/CORPORATE/corp_Word_PP_600px_7.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(7,1)" class="hover-shadow cursor">
+          </div>
+
+          <div class="column">
+            <img src="IMAGES/MODAL/CORPORATE/corp_periodical_600px_8.jpg" style="width:100%" onclick="openModal(1);currentSlideStart(8,1)" class="hover-shadow cursor">
+          </div>
+
+        </div>
+        <!-- Corp - Modal/Lightbox-->
+
+        <div id="myModal" class="modal">
+
+        <span class="close cursor" onclick="closeModal(1)">&times;</span>
+
+        <div class="modal-content">
+
+        <!-- <showSlides> -->
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_MST_quarterly_1000px.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_ANZ_1000px_2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_VMA_1000px_3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_NGS_1000px_4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_RBF_1000px_5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_forms_1000px_6.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_Word_PP_1000px_7.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 8 &emsp;<strong>Corporate Design</strong></div>
+          <img src="IMAGES/MODAL/CORPORATE/corp_periodical_1000px_8.jpg" style="width:100%">
+        </div>
+  <!-- Next/previous controls for Corp-->
+
+        <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+
+  <!-- Caption text-->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+      <!-- Thumbnail image controls for Corp-->
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_MST_quarterly_1000px.jpg" style="width:100%" onclick="currentSlideStart(1,1)" alt= "Mercer interactive pdf report. <br>Right, various covers and internal pages including feature articles with data laid out in graphs, maps and tables. The design layout was developed in accordance with Mercer’s global style guide and the samples above were based on existing report layouts. In late 2016 I worked on a cover ‎&lsquo;refresh‎&rsquo; to incorporate the hero image bleeding off the right edge.">
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_ANZ_1000px_2.jpg" style="width:100%" onclick="currentSlideStart(2,1)" alt="ANZ Staff Superannuation Newsletter &mdash; Print and online pdf.<br>The design was developed by the Mercer Design Studio in conjunction with ANZ Corporate Brand Guidelines. Samples above depict a &lsquo;seasonal&rsquo; theme with articles and data laid out in graphs and tables. I predominantly worked on updating the content and at times, tweaking the layout accordingly.">
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_VMA_1000px_3.jpg" style="width:100%" onclick="currentSlideStart(3,1)" alt="Virgin Money Insurance Guide, PDS and Product Guide &mdash; Online pdfs.Various pages from all 3 documents. <br>Layouts were developed by the Mercer Design Studio in conjunction with Virgin Money Style Guide. I predominantly worked on updating content in the 2016 versions while in 2017, I laid out new content for the Insurance and Product Guides.">
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_NGS_1000px_4.jpg" style="width:100%" onclick="currentSlideStart(4,1)" alt="NGS Mailer, Income Account Guide PDS with perforated forms pack, various fact sheets &mdash; Print and online pdfs.<br>Mailer, PDS and fact sheet design based on style guide and provided by agency. Mercer Design Studio went on to develop and extend the NGS templates.<br>I predominantly worked on forms updates, guides and fact sheets and at times developed new documents based on the style guide and templates. In order to reduce the postage costs in 2015, I was involved in converting the PDS guide to A5 size while keeping the forms at A4.">
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_RBF_1000px_5.jpg" style="width:100%" onclick="currentSlideStart(5,1)" alt="Above and left, RBF Member Booklet and various fact sheets. Right, &ldquo;Member News&rdquo; Jan 2017 &mdash; an Interactive pdf. All works created for print and as online pdfs. <br>Layouts were developed by the Mercer Design Studio based on RBF Style Guidelines. I worked on content updates and new fact sheets and booklets based on existing templates. I set up the interactive pdf for &ldquo;Member News&rdquo; Jan 2017.">
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_forms_1000px_6.jpg" style="width:100%" onclick="currentSlideStart(6,1)" alt="Various forms for Mercer Super Trust and other plans, including Rio Tinto, Virgin Money (interactive forms), ANZ, NGS to name a few…<br>The NGS Financial Fact Find was been set up as an interactive pdf (sample page above with fillable form fields in purple) and incorporated some calculations coded in Javascript. <br>Working as the Mercer Design Studio’s Forms Specialist, I was the single point of contact for key stakeholders across Mercer Pacific. I was responsible for developing, designing and maintaining all Mercer/Corporate Super plan forms and templates, ensuring quality control as well as adherence to individual brand guidelines.">
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_Word_PP_1000px_7.jpg" style="width:100%" onclick="currentSlideStart(7,1)" alt="R.G. Withers Word document and Powerpoint templates. Left, word template; right, powerpoint template.">
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="IMAGES/MODAL/CORPORATE/corp_periodical_1000px_8.jpg" style="width:100%" onclick="currentSlideStart(8,1)" alt="Various Mercer documents I worked on or set up based on the Mercer Style Guide and templates. The &lsquo;Periodic table&lsquo;, top right, is an interactive pdf mapping the perfomance of each investment return. ">
+        </div>
+        <div class="clearfix"></div>
+
+        <div class ="top"> <a href = "index.html" > &lt;&nbsp;Back to <strong>Home</strong></a></div>
+
+        <div class="right"> <a href= "portfolio.html" >Back to <strong>Portfolio</strong>&nbsp;&gt;</a></div>
+
+        <div class="clearfix"></div>
+        </div>
+
+      </div>
+
+
+  <!--EDU and Govt-->
+
+
+      <h3 id="education">Education and Public Sector</h3>
+
+      <div class="row">
+
+        <div class="column">
+          <img src="IMAGES/MODAL/EDU_GOVT/edu_WAI_marketing_ad_600px_1.jpg" style="width:100%" onclick="openModal(2);currentSlideStart(1,2)" class="hover-shadow cursor">
+        </div>
+
+        <div class="column">
+          <img src="IMAGES/MODAL/EDU_GOVT/edu_WAI_brochures_600px_2.jpg" style="width:100%" onclick="openModal(2);currentSlideStart(2,2)" class="hover-shadow cursor">
+        </div>
+
+        <div class="column">
+          <img src="IMAGES/MODAL/EDU_GOVT/gov_AR_600px_3.jpg" style="width:100%" onclick="openModal(2);currentSlideStart(3,2)" class="hover-shadow cursor">
+        </div>
+
+        <div class="column">
+          <img src="IMAGES/MODAL/EDU_GOVT/gov_ad_600px_4.jpg" style="width:100%" onclick="openModal(2);currentSlideStart(4,2)" class="hover-shadow cursor">
+        </div>
+
+      </div>
+
+    <!-- Edu - Modal/Lightbox-->
+
+      <div id="myModal_2" class="modal_2">
+       <span class="close cursor_2" onclick="closeModal(2)">&times;</span>
+
+       <div class="modal-content">
+
+         <div class="mySlides_2">
+           <div class="numbertext">1 / 4&emsp;<strong>Education and Public Sector Design</strong></div>
+           <img src="IMAGES/MODAL/EDU_GOVT/edu_WAI_marketing_ad_1000px_1.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides_2">
+           <div class="numbertext">2 / 4&emsp;<strong>Education and Public Sector Design</strong></div>
+           <img src="IMAGES/MODAL/EDU_GOVT/edu_WAI_brochures_1000px_2.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides_2">
+          <div class="numbertext">3 / 4&emsp;<strong>Education and Public Sector Design</strong></div>
+          <img src="IMAGES/MODAL/EDU_GOVT/gov_AR_1000px_3.jpg" style="width:100%">
+         </div>
+
+         <div class="mySlides_2">
+           <div class="numbertext">4 / 4&emsp;<strong>Education and Public Sector Design</strong></div>
+          <img src="IMAGES/MODAL/EDU_GOVT/gov_ad_1000px_4.jpg" style="width:100%">
+         </div>
+
+    <!-- Next/previous controls for Edu-->
+
+        <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
+
+      <!-- Caption text-->
+        <div class="caption-container">
+          <p id="caption_2"></p>
+        </div>
+
+      <!-- Thumbnail image controls for Edu-->
+
+        <div class="column">
+          <img class="demo_2 cursor_2" src="IMAGES/MODAL/EDU_GOVT/edu_WAI_marketing_ad_1000px_1.jpg" style="width:100%" onclick="currentSlideStart(1,2)" alt="William Angliss Institute, &ldquo;We know you&rsquo;ve never wanted to do anything else…&rdquo; King Street Banner, various print ads and Dive Brochure.<br>Working with W.A.I. style guidelines I created the large-scale King Street Banner, set up various print ads and did content updates to the Dive brochure.">
+        </div>
+
+        <div class="column">
+          <img class="demo_2 cursor_2" src="IMAGES/MODAL/EDU_GOVT/edu_WAI_brochures_1000px_2.jpg" style="width:100%" onclick="currentSlideStart(2,2)" alt="Various course flyers, W.A.I. Restaurants roll-fold brochure, DL Expo flyer and Student Services mini-brochure. <br>These brochures and flyers were based on W.A.I. style guidelines. My work on these included setting up artwork, making content changes and final art.">
+        </div>
+
+        <div class="column">
+           <img class="demo_2 cursor_2" src="IMAGES/MODAL/EDU_GOVT/gov_AR_1000px_3.jpg" style="width:100%" onclick="currentSlideStart(3,2)" alt="Various annual reports and the &lsquo;Overview Paper&rsquo; for Heritage Railways.<br>I updated content on these reports. I did the finished art for the Heritage Rail paper dated 2011 as well as the Victorian Biotechnology Annual Report for 2010. Both were print and online pdfs.">
+         </div>
+
+         <div class="column">
+           <img class="demo_2 cursor_2" src="IMAGES/MODAL/EDU_GOVT/gov_ad_1000px_4.jpg"  style="width:100%" onclick="currentSlideStart(4,2)" alt=" Print/press ads for VicRoads and Victorian Department of Sustanability and Environment (D.S.E.).<br> I updated content and did the finished art on the (D.S.E.) ad. I designed the VicRoads ads working with their style guide, as well as content updates and finished art.">
+         </div>
+
+        <div class="clearfix"></div>
+
+        <div class ="top">
+          <a href = "index.html" > &lt;&nbsp;Back to <strong>Home</strong></a>
+        </div>
+
+        <div class="right">
+          <a href= "portfolio.html">Back to <strong>Portfolio</strong>&nbsp;&gt;</a>
+        </div>
+
+      </div>
+
+      </div>
+
+
+
+<!--AD-->
+
+
+      <h3 id="advertising">Advertising and Design</h3>
+
+      <div class="row">
+
+      <div class="column">
+        <img src="IMAGES/MODAL/AD/ad_OA_600px_1.jpg" style="width:100%" onclick="openModal(3);currentSlideStart(1,3)" class="hover-shadow cursor_3">
+      </div>
+
+      <div class="column">
+        <img src="IMAGES/MODAL/AD/ad_WA_600px_2.jpg" style="width:100%" onclick="openModal(3);currentSlideStart(2,3)" class="hover-shadow cursor_3">
+      </div>
+
+      <div class="column">
+        <img src="IMAGES/MODAL/AD/ad_TWD_600px_3.jpg" style="width:100%" onclick="openModal(3);currentSlideStart(3,3)" class="hover-shadow cursor_3">
+      </div>
+
+      <div class="column">
+        <img src="IMAGES/MODAL/AD/ad_logo_600px_4.jpg" style="width:100%" onclick="openModal(3);currentSlideStart(4,3)" class="hover-shadow cursor_3">
+      </div>
+
+      </div>
+
+      <!-- Adv- Modal/Lightbox-->
+
+      <div id="myModal_3" class="modal_3">
+       <span class="close cursor_3" onclick="closeModal(3)">&times;</span>
+
+      <div class="modal-content">
+
+       <div class="mySlides_3">
+         <div class="numbertext">1 / 4&emsp;<strong>Advertising and Design</strong></div>
+         <img src="IMAGES/MODAL/AD/ad_OA_1000px_1.jpg" style="width:100%">
+       </div>
+
+       <div class="mySlides_3">
+         <div class="numbertext">2 / 4&emsp;<strong>Advertising and Design</strong></div>
+         <img src="IMAGES/MODAL/AD/ad_WA_1000px_2.jpg" style="width:100%">
+       </div>
+
+       <div class="mySlides_3">
+          <div class="numbertext">3 / 4&emsp;<strong>Advertising and Design</strong></div>
+          <img src="IMAGES/MODAL/AD/ad_TWD_1000px_3.jpg" style="width:100%">
+       </div>
+
+       <div class="mySlides_3">
+         <div class="numbertext">4 / 4&emsp;<strong>Advertising and Design</strong>
+        </div>
+        <img src="IMAGES/MODAL/AD/ad_logo_1000px_4.jpg" style="width:100%">
+       </div>
+      <!-- Next/previous controls for Ad-->
+
+       <a class="prev" onclick="plusSlides(-1,3)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1,3)">&#10095;</a>
+
+      <!-- Caption text-->
+       <div class="caption-container">
+         <p id="caption_3"></p>
+       </div>
+
+      <!-- Thumbnail image controls for Ad-->
+
+       <div class="column">
+        <img class="demo_3 cursor_3" src="IMAGES/MODAL/AD/ad_OA_1000px_1.jpg" style="width:100%" onclick="currentSlideStart(1,3)" alt="Print Ads for Opals Australia. From left to right, the &ldquo;Goodies Box&rdquo; campaign ad, &ldquo;Two Great Offers...&ldquo; trade show promotion and the last two ads promoting new product ranges.<br>Working alongside the creative director, I set up the layouts based on the initial design concepts, made content changes and did the finished art. ">
+       </div>
+
+       <div class="column">
+        <img class="demo_3 cursor_3" src="IMAGES/MODAL/AD/ad_WA_1000px_2.jpg" style="width:100%" onclick="currentSlideStart(2,3)" alt="&ldquo;Welcome Aboard&rdquo;, below the line customer acquisition campaign.<br>Working with the D.M. manager, I developed the concept design, including the letter, the posters and personalised entry &lsquo;ticket&rsquo;.">
+       </div>
+
+       <div class="column">
+        <img class="demo_3 cursor_3" src="IMAGES/MODAL/AD/ad_TWD_1000px_3.jpg "style="width:100%" onclick="currentSlideStart(3,3)" alt="&lsquo;Standee&rsquo; and posters for &ldquo;The things we do&rdquo; &mdash; concept design. A cross promotion of insurance products at a Credit Union.">
+        </div>
+
+        <div class="column">
+          <img class="demo_3 cursor_3" src="IMAGES/MODAL/AD/ad_logo_1000px_4.jpg"  style="width:100%" onclick="currentSlideStart(4,3)" alt="Various logo designs.<br>&ldquo;Wanderlust&rdquo;, &ldquo;Boom&rdquo; &mdash; concept only. &ldquo;Advantage Training&rdquo; and &ldquo;Lucy Bird&rdquo; logo design.">
+        </div>
+
+       <div class="clearfix"></div>
+
+       <div class ="top">
+        <a href = "index.html" > &lt;&nbsp;Back to <strong>Home</strong></a>
+       </div>
+
+       <div class="right">
+        <a href= "portfolio.html">Back to <strong>Portfolio</strong>&nbsp;&gt;</a>
+       </div>
+
+      </div>
+      </div>
+<!-- Publications-->
+
+       <h3 id="publications" class="image_gallery">Publication Design</h3>
+
+       <div class="row">
+
+       <div class="column">
+         <img src="IMAGES/MODAL/PUB/pub_WT97_OC_600px_1.jpg" style="width:100%" onclick="openModal(4);currentSlideStart(1,4)" class="hover-shadow cursor_4">
+       </div>
+
+       <div class="column">
+         <img src="IMAGES/MODAL/PUB/pub_WT97_flow_600px_2.jpg" style="width:100%" onclick="openModal(4);currentSlideStart(2,4)" class="hover-shadow cursor_4">
+       </div>
+
+       <div class="column">
+         <img src="IMAGES/MODAL/PUB/pub_WT98_VW_600px_3.jpg" style="width:100%" onclick="openModal(4);currentSlideStart(3,4)" class="hover-shadow cursor_4">
+       </div>
+
+       <div class="column">
+         <img src="IMAGES/MODAL/PUB/pub_WT98_gr_600px_4.jpg" style="width:100%" onclick="openModal(4);currentSlideStart(4,4)" class="hover-shadow cursor_4">
+       </div>
+
+       </div>
+
+       <!-- Pub- Modal/Lightbox-->
+
+       <div id="myModal_4" class="modal_4">
+        <span class="close cursor_4" onclick="closeModal(4)">&times;</span>
+
+       <div class="modal-content">
+
+        <div class="mySlides_4">
+          <div class="numbertext">1 / 4&emsp;<strong>Publication Design</strong></div>
+          <img src="IMAGES/MODAL/PUB/pub_WT97_OC_1000px_1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides_4">
+          <div class="numbertext">2 / 4&&emsp;<strong>Publication Design</strong></div>
+          <img src="IMAGES/MODAL/PUB/pub_WT97_flow_1000px_2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides_4">
+           <div class="numbertext">3 / 4&&emsp;<strong>Publication Design</strong></div>
+           <img src="IMAGES/MODAL/PUB/pub_WT98_VW_1000px_3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides_4">
+          <div class="numbertext">4 / 4&emsp;<strong>Publication Design</strong>
+         </div>
+         <img src="IMAGES/MODAL/PUB/pub_WT98_gr_1000px_4.jpg" style="width:100%">
+        </div>
+       <!-- Next/previous controls for Pub-->
+
+       <a class="prev" onclick="plusSlides(-1,4)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1,4)">&#10095;</a>
+
+       <!-- Caption text-->
+        <div class="caption-container">
+          <p id="caption_4"></p>
+        </div>
+
+       <!-- Thumbnail image controls for Pub-->
+
+        <div class="column">
+         <img class="demo_4 cursor_4" src="IMAGES/MODAL/PUB/pub_WT97_OC_1000px_1.jpg" style="width:100%" onclick="currentSlideStart(1,4)" alt="Wedding&Travel Magazine 1997, ads and editorial layout. Left, jewellery ad; right, editorial feature on bridal designers.">
+        </div>
+
+        <div class="column">
+         <img class="demo_4 cursor_4" src="IMAGES/MODAL/PUB/pub_WT97_flow_1000px_2.jpg" style="width:100%" onclick="currentSlideStart(2,4)" alt="Wedding&Travel 1997, ads and editorial layout. Left, editorial on wedding band designs; right, editorial feature on bridal bouquets.">
+        </div>
+
+        <div class="column">
+         <img class="demo_4 cursor_4" src="IMAGES/MODAL/PUB/pub_WT98_VW_1000px_3.jpg "style="width:100%" onclick="currentSlideStart(3,4)" alt="Wedding&Travel 1998, editorial feature on Vera Wang's bridal range.">
+         </div>
+
+         <div class="column">
+			<img class="demo_4 cursor_4" src="IMAGES/MODAL/PUB/pub_WT98_gr_1000px_4.jpg"  style="width:100%" onclick="currentSlideStart(4,4)" alt="Wedding&Travel 1998. Left magazine cover; center, bridal boutique ad; right, editorial and fashion spread for grooms.">
+         </div>
+
+        <div class="clearfix"></div>
+
+        <div class ="top">
+         <a href = "index.html" > &lt;&nbsp;Back to <strong>Home</strong></a>
+        </div>
+
+        <div class="right">
+         <a href= "portfolio.html">Back to <strong>Portfolio</strong>&nbsp;&gt;</a>
+        </div>
+
+       </div>
+       </div>
+
+    </section>
+  </main>
+
+    <footer>
+      <h6>&copy;2018 Mirella Gandolfo</h6>
+    </footer>
+
+    <script src="jquery_code.js"></script>
+    <script src="main.js"> </script>
+
+  </body>
+
+</html>

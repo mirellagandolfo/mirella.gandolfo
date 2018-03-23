@@ -1,0 +1,104 @@
+
+.intro .grey_blue{
+  /* width: auto; */
+  text-align: center;
+  /* height: auto; */
+}
+.intro h2{
+  /* width: auto; */
+  text-align: center;
+  /* height: auto; */
+  margin-top: 5%;
+}
+.pic{
+  background-image: url('../IMAGES/mirella_photo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 160px;
+  height:190px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+form{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.field{
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ffff;
+  margin: 8px 0;
+  color: grey;
+  font-weight: 400;
+}
+input[placeholder]{
+  font-size: .75rem;
+  padding-left: 10px;
+  text-align: left;
+  color: grey;
+  font-weight: 400;
+}
+
+label {
+ font-size: .75rem;
+ color: #5d5e5c;
+ text-align: left;
+}
+nbsp&{
+  font-size: .75rem;
+  color: #5d5e5c;
+  text-align: left;
+}
+select{
+  width: auto;
+  color: #5d5e5c;
+  text-align: center;
+  font-size: .6rem;
+  font-weight: 400;
+}
+
+textarea{
+  font-size: .75rem;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #52667C;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-color: #ffff;
+  scroll-behavior: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.contact_me{
+  text-align: center;
+}
+input[type=submit] {
+    width: 130px:
+    background-color: #ffff;
+    color: #52667C;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    color: #eaeaea;
+}
+.grey_blue{
+  color: #52667C;
+}

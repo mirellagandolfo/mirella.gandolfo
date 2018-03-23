@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Me</title>
+    <link rel="stylesheet"  "https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"> <img class="logo" src="IMAGES/mirella_logo.png"></a>
+      <nav>
+        <ul>
+          <li class="main_nav"><a href="about.html">About &nbsp;Me</a></li>
+          <li class="main_nav"><a href="portfolio.html">Portfolio</a></li>
+          <li class="main_nav"><a class="active_link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro">
+        <h2 class="thanks">Thanks for visiting my site!</h2>
+        <p class="grey_blue"><strong>If you will like to know more, fill in your details below and I will be in contact shortly.</strong></p>
+        <div class="pic"></div>
+      </div>
+
+      <form action="registered_successfully.html" method="get"class="regform">
+        <input class="field"type="text" name="first_name" value=""placeholder="First Name">
+        <input class="field"type="text" name="surname" value=""placeholder="Surname">
+        <input class="field"type="text" name="email" value=""placeholder="E-mail">
+        <textarea rows="10" name="Your inquiry"placeholder="Briefly state the reason for your inquiry"></textarea>
+
+        <div class="contact_me">
+        <div class="g-recaptcha" data-sitekey="6LdpiUoUAAAAAEek4s_fGvMl9X8DvQlIKI1LHz0Z"></div>
+          <input class="send_form"type="submit" value="submit"></input>
+        </div>
+      </form>
+
+    </main>
+
+    <footer>
+      <h6>&copy;2018 Mirella Gandolfo</h6>
+    </footer>
+    <script src="jquery_code.js"></script>
+    <script src="main.js"> </script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+
+#corporate, #education,#advertising, #publications{
+  margin-left: 40px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #52667C;
+  margin-bottom: 10px;
+}
+
+
+/* Modal in sections below*/
+.row > .column {
+padding: 0 8px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* Create four equal columns that float next to eachother*/
+.column {
+float: left;
+width: 20%;
+margin-bottom: 2%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+/* The Modal (background) - created one for each portfolio section */
+.modal,.modal_2,.modal_3, .modal_4{
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+min-height:100vh;
+overflow: auto;
+background: #c0dde2; /* For browsers that do not support gradients */
+background: linear-gradient(to right, #ffff , #c0dde2); /* Standard syntax (must be last);*/
+}
+
+/* Modal Content */
+.modal-content {
+position: relative;
+margin: auto;
+padding: 0;
+width: 90%;
+max-width: 1200px;
+min-height:100vh;
+}
+
+
+/* Modal - The Close Button */
+.close {
+color: white;
+position: absolute;
+top: 10px;
+right: 25px;
+font-size: 35px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+color: #999;
+text-decoration: none;
+cursor: pointer;
+}
+/*  Hide mySlides by default - created one for each portfolio section */
+.mySlides, .mySlides_2 ,.mySlides_3 ,.mySlides_4 {
+display: none;
+}
+/* Cursor - created one for each portfolio section */
+.cursor, .cursor_2,.cursor_3, .cursor_4{
+cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 10%;
+width: auto;
+padding:16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 0 3px 0;
+user-select: none;
+-webkit-user-select: none;
+border-radius: 3px 0 0 3px;
+background-color: #52667C;
+opacity: .8;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+background-color: #52667C;
+opacity: .7;
+}
+
+/* On hover, add a darker background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: #e3eff7;
+color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #52667C;
+border-radius: 0 0 10px 0;
+font-size: 12px;
+padding: 12px 12px 16px 12px;
+position: absolute;
+top: 0;
+background-color: #ffff;
+opacity: .8;
+}
+/* Caption text */
+.caption-container {
+text-align: left;
+font-size: .75rem;
+}
+img.demo, img.demo_2,img.demo_3,img.demo_4 {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover,.demo_2:hover,.demo_3:hover ,.demo_4:hover  {
+opacity: 1;
+}
+
+.title h3{
+  float: left;
+}
+img.hover-shadow {
+transition: 0.3s
+}
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.top{
+  float: left;
+  padding-left: 20px;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.right{
+  float: right;
+  padding-left: 20px;
+  font-size: 12px;
+}

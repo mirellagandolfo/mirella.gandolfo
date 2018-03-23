@@ -1,0 +1,110 @@
+main.about{
+  display: flex;
+  flex-direction: row;
+  color: #52667C;
+  background: #c0dde2; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, #ffff , #c0dde2); /* Standard syntax (must be last) */
+  padding-bottom: 20px;
+}
+
+.avatar{
+  height:80%;
+  min-width: 0;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.copy{
+  width: 300px;
+  height: 300px;
+  padding-left: 40px;
+  width: 45%;
+  height: auto;
+  margin-top: 5%;
+  margin-right: 20px;
+}
+.copy h1 h2 h3{
+  font-weight: 400;
+}
+
+.grey{
+  color: #5d5e5c;
+}
+.grey_blue{
+  color: #52667C;
+}
+.timeline{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.readless a, .readmore a{
+  color: #52667C;
+  font-weight: 400;
+}
+
+h3.about {
+  font-weight: 300;
+  color: black;
+}
+
+/*   37.5 = 600px*/
+@media screen and (max-width: 37.5em){
+
+  main.about{
+    display: flex;
+    flex-direction: column;
+    color: #52667C;
+    background: #c0dde2; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #ffff , #c0dde2); /* Standard syntax (must be last) */
+    padding-bottom: 20px;
+  }
+
+  .avatar{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .copy{
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color:#52667C;
+  }
+  h2.grey_blue{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color:#52667C;
+  }
+
+.copy h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    color:#52667C;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+.copy h4 a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: .75rem;
+    color:#52667C;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+.copy p{
+  margin: 0;
+}
+.grey_blue{
+  color: #52667C;
+  margin: 0;
+}
